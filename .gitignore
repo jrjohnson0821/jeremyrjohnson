@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Office lock files, in case a spreadsheet is ever opened from inside this folder
+~$*
+
+# Nothing from the parent folder is tracked, because the repo root is site/.
+# Inputs/, Outputs/, Working Files/, HANDOFF.md, and the Masonic checklist all
+# live one level up and are outside this repository on purpose. Do not move the
+# repo root up a level without re-adding ignores for all of them.

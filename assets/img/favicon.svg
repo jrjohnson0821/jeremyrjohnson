@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Jeremy R. Johnson">
+  <title>Jeremy R. Johnson</title>
+  <defs>
+    <clipPath id="tile">
+      <rect width="32" height="32" rx="7"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#tile)">
+    <!-- Professional blue field -->
+    <rect width="32" height="32" fill="#1f4e79"/>
+    <!-- Masonic gold base band, the other half of the site in one stripe -->
+    <rect y="28.5" width="32" height="3.5" fill="#c9a227"/>
+  </g>
+  <!-- The J is a stroked path, not text, so the mark never depends on a font
+       being available to whatever is rendering the icon. No crossbar: at 16px
+       a barred J reads as a T. -->
+  <path d="M20.5 8.5 V18.5 A4.5 4.5 0 0 1 11.5 18.5"
+        fill="none" stroke="#ffffff" stroke-width="3.6" stroke-linecap="round"/>
+</svg>
