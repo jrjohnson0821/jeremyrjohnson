@@ -620,6 +620,7 @@ html[data-theme="dark"] .theme-toggle .sun  { display: none; }
   font-size: 0.82rem;
 }
 .roles li.is-current .role { color: var(--accent); font-weight: 600; }
+.section--plain-roles .roles li.is-current .role { color: inherit; font-weight: inherit; }
 
 .tag-past {
   display: inline-block;
